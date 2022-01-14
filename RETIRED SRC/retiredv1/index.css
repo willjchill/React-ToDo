@@ -1,0 +1,29 @@
+:root {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  margin: 1rem 0rem 1rem 1rem;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+input[type="textbox"] {
+  height: 2rem;
+  width: 30rem;
+  padding: 0px 2rem 0px 2rem;
+}
+
+button {
+  width: 4rem;
+  height: 2rem;
+}
